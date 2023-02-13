@@ -100,14 +100,14 @@ ul li, ol li {
 }
 
 .section-title-header p {
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
 }
 
 .section-titled-header p {
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
@@ -141,7 +141,7 @@ ul li, ol li {
   font-family: '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
   margin-bottom: 10px;
   margin-top: 30px;
-  font-size: 28px;
+  font-size: 23px;
 }
 
 .section-title p {
@@ -180,7 +180,7 @@ ul li, ol li {
 .section-info {
   font-size: 16px;
   color: #000;
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 20px;
@@ -241,6 +241,19 @@ ul li, ol li {
 }
 
 .btn-border:hover {
+  color: #fff;
+  background-color:#f15d23
+}
+
+.btn-bordeer {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.btn-bordeer:hover {
   color: #fff;
   background-color:#f15d23
 }
@@ -348,6 +361,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .section-padding {
   padding: 60px 0;
 }
+
 
 @-webkit-keyframes fadeIn {
   from {
@@ -635,6 +649,29 @@ a.back-to-top:hover, a.back-to-top:focus {
     margin: 0px;
     font-size: 12px;
   }
+
+  .section-title p {
+    font-weight: 300;
+    line-height: 23px;
+    text-align: center;
+    font-family: '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .section-title h3 {
+    font-weight: 500;
+    text-align: center;
+    font-family: '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 23px;
+  }
+
+  #services .services-item p {
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 
 /* ==========================================================================
@@ -642,6 +679,24 @@ a.back-to-top:hover, a.back-to-top:focus {
 ========================================================================== */
 .intro {
   background: url(../img/hero-area.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 150px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.introo {
+  background: url(../img/hero-areaa.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 150px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.introoo {
+  background: url(../img/hero-areaaa.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   padding: 150px 0;
@@ -917,6 +972,21 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #f15d23;
 }
 
+/* Process Section */
+#process {
+  background:  #000;
+}
+/* Process End */
+
+/* About section */
+#about {
+  background:  #f15d23;
+}
+
+/* About Section End */
+
+
+
 /* Services Item */
 #services .icon {
   margin-bottom: 10px;
@@ -960,6 +1030,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-align: center;
 }
 
+#services .services-item p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 #services .services-item h3 a:hover {
   color: #f15d23;
 }
@@ -971,6 +1046,27 @@ a.back-to-top:hover, a.back-to-top:focus {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+#service .services-item {
+  text-align: center;
+  padding: 30px 0;
+}
+
+#service .services-item h3 {
+  margin-bottom: 10px;
+}
+
+#service .services-item h3 a {
+  color: #343434;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+#service .services-item p {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /* Team Item */
@@ -997,6 +1093,19 @@ a.back-to-top:hover, a.back-to-top:focus {
   cursor: pointer;
   overflow: hidden;
   border-radius: 4px;
+}
+
+.team-item h3 {
+  font-size: 25px;
+  font-weight: 300;
+  font-family: '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
+.team-item a {
+  font-size: 25px;
+  font-weight: 400;
+  color: #f15d23;
+  font-family: '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
 }
 
 .team-item .team-overlay {
