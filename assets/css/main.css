@@ -112,6 +112,39 @@ ul li, ol li {
   line-height: 26px;
   padding-bottom: 36px;
 }
+.section-tile {
+  font-size: 36px;
+  color: rgb(7, 7, 7)(255, 255, 255);
+  line-height: 52px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  text-align: left;
+  position: relative;
+  margin: 0;
+}
+
+.section-tile h3 {
+  font-weight: 500;
+  text-align: left;
+  font-family: '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-size: 25px;
+  padding: 20px 20px 0px 20px;
+  color: #fff;
+}
+
+.section-tile p {
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  font-family: '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  margin: 0px;
+  padding: 0px 20px 20px 20px;
+  font-size: 17px;
+  color: #fff;
+}
+
 
 .section-title {
   font-size: 36px;
@@ -270,6 +303,45 @@ button:focus {
 
 .close-button {
   color: #f15d23;
+}
+
+.btnn {
+  font-size: 14px;
+  padding: 0px 10px;
+  margin-top: 10px;
+  border-radius: 0px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  display: inline-block;
+}
+
+.btnn:focus,
+.btnn:active {
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+}
+
+.btnn-common {
+  background-color: #f15d23;
+  border: 2px solid transparent;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.btnn-common:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  
 }
 
 /* ScrollToTop */
@@ -703,6 +775,14 @@ a.back-to-top:hover, a.back-to-top:focus {
   overflow: hidden;
   position: relative;
 }
+.introooo {
+  background: url(../img/hero-areaaabb.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 150px 0;
+  overflow: hidden;
+  position: relative;
+}
 
 .intro .overlay {
   position: absolute;
@@ -956,8 +1036,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #3B5998;
 }
 
-.social .twitter:hover {
-  color: #00aced;
+.social .linkedin:hover {
+  color: #0072b1;
 }
 
 .social .instagram:hover {
@@ -1171,8 +1251,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #3B5998;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .lni-twitter-filled {
-  background: #00aced;
+.team-item .overlay-social-icon .social-icons li a:hover .lni-linkedin-filled {
+  background: #0072b1;
 }
 
 .team-item .overlay-social-icon .social-icons li a:hover .lni-instagram-filled {
